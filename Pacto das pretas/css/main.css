@@ -1,50 +1,96 @@
-body {
-width: 100%;
-height: 100%;
-margin: 0 auto;
+/*Estilo geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-.menu-principal {
-width: 100%;
-background-color: black;
-height: 60px;
+body {
+background-color:#e2e5ea; 
+height: 100vh;
+
+}
+
+.header-1{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Estilo do cabeçalho*/
+
+.header{
+    padding: 40px 4%;
+
+}
+
+.header > .header-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a{
+    color: rgb(185, 123, 243);
+    text-decoration: none;
+    display: inline-block;
+    transition:.2s;
+} 
+
+.header a:hover{
+    color: black;
+    transform: scale(1.05);
+}
+.header nav ul{
+    list-style-type: none;
+
+}
+.header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
 }
 
 
 main{
-margin: 0 auto;
-width: 980px;
-position: relative;
-}
-.logo{
-float: left;
- padding: 15px;
- width:10%;
+margin: 10 auto;
+width: 100%;
+padding-left: 50px;   
 }
 
+/*Cada imagem iria fornecer um link de contato*/
+
 .redes-sociais ul li {
-    margin-left: 15px;
-    display: inline-block;
-    float: left;
-    list-style: none;
-     
+margin-left: 50%;
+display: inline-block;
+padding-left: 15px;
+} 
+/*Aqui gostaria de estilizar cada link do menu*/
+.header-2 { 
+background-color: aliceblue;
+width: 10%;
 }
-.redes-sociais {
-    width: 50%;
-    float: right;
-}
-.header-2{ 
-    background-color: aliceblue;
-    width: 25%;
-    }
     
-    .menu ul li{
-    display: inline-block;
-    float: left;
-    }
-    .menu ul li{
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    text-transform: uppercase;
-    }
+.menu ul li {
+display: inline-block;
+margin-left: 0 auto;
+}
+
+.menu ul li a {
+color: rgb(239, 93, 166);
+text-decoration: none;
+font-weight: bold;
+font: x-large;
+text-transform: uppercase;
+}
+      
+.seccao-1 {
+width: 500px;
+background-color: aquamarine;
+margin-left: 50px;
+margin-top: 50px; 
+}
+
+.seccao-2 {
+width: 200px;
+margin-top: 50px;
+}
